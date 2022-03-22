@@ -11,6 +11,9 @@ main>.container {
 
 
 }
+main>.container-fluid{
+    padding-top: 60px;
+}
 .homeText {
     font-family: modesto-open-shadow, sans-serif;
     font-weight: 400;
