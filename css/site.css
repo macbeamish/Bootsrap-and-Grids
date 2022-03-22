@@ -17,3 +17,15 @@ main>.container {
     font-style: normal;
     color: rgb(195, 255, 0);
 }
+
+.minHeight{
+    min-height:80vh;
+}
+.maxHeight{
+    max-height:50vh;
+}
+body> main{
+    margin-top: 20px ;
+    margin-bottom: 60px;
+
+}

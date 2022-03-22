@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>Bootstrap Grid Two</title>
+    <title>Bootstrap Grid Three</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -46,10 +46,10 @@
                     <a class="nav-link"  href="Grid1.html">Grid 1</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="Grid2.html">Grid 2</a>
+                    <a class="nav-link" href="Grid2.html">Grid 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Grid3.html">Grid 3</a>
+                    <a class="nav-link active" aria-current="page" href="Grid3.html">Grid 3</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Grid4.html">Grid 4</a>
@@ -75,29 +75,65 @@
     </div>
 </nav>
 
-   
-<main class="flex-shrink-0">
-    <div class="container h-100 minHeight">
-        <div class="row  h-100">
-            <div class="col-3">
-                 <div class="bg-secondary text-light h-100">
-                    <h1> SIDE NAV</h1>
-                 </div>
-            </div>
-            <div class="col-9">
-                 <div class="bg-dark text-light h-100 p-2" >
-                     <h1>MAIN CONTENT</h1>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
-                          in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                     </p>
-                 </div>
-             </div>
-        </div>
-    </div>
- </main>
+    <main class="flex-shrink-0">
+       <div class="container minHeight h-100">
+           <ul class="nav nav-pills mb-1">
+               <li class="nav-item">
+                   <a href="Grid3.html" class="nav-link"> Grid 3</a>
+               </li>
+               <li class="nav-item">
+                <a href="Grid3B.html" class="nav-link active" aria-current="page"> Grid 3B</a>
+            </li>
+
+           </ul>
+           <div class="row h-100">
+               <!-- LEFT COLUMN -->
+               <div class="col-7">
+                   <div class="bg-secondary text-light p-2 h-100">
+                       <h1>Article Title</h1>
+                       <p>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                       </p>
+
+                   </div>
+               </div>
+               <!-- RIGHT COLUMN -->
+               <div class="col-5 h-100">
+                   <!-- RIGHT TOP COLUMN -->
+                   <div class="bg-secondary text-ligh p-2">
+                       <form class="d-flex">
+                           <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                           <button class="btn btn-outline-light" type="submit">Search</button>
+
+                       </form>
+                
+                   </div>
+                   <!-- RIGHT BOTTOM COLUMN -->
+                   <div class="bg-dark text-light  mt-2 p-2">
+                    <h5>More Articles</h5>
+                    <ul class="nav flex-column">
+                        <li>
+                            <a class="nav-link" href="#"> Article 1</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"> Article 2</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#"> Article 3</a>
+                        </li>
+
+                    </ul>
+
+                   </div>
+                 
+               </div>
+           </div>
+           
+       </div>
+    </main>
     <footer class="footer mt-auto py-3 bg-dark sticky-footer">
         <div class="container-fluid text-center">
             <span class="text-white">Thomas Beamish Bootsrap Grids</span>
